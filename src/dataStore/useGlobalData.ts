@@ -1,0 +1,1 @@
+import { createContext } from 'react'export interface IGlobalData {    showHeader: boolean    setShowHeader: (value: boolean) => void}export const UseGlobalData = createContext<IGlobalData>({} as IGlobalData)

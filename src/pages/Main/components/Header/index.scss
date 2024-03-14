@@ -1,0 +1,1 @@
+.header {    &__container {        height: 50px;        line-height: 50px;        background-color: #007FFF;        padding: 0 16px 0 12px;        color: #fff;    }    &__right {        cursor: pointer;    }    &__user-name {        color: #fff;        .user-name {            padding-right: 8px;        }    }}

@@ -1,0 +1,1 @@
+/* 节流 */export const throttle = <T extends (...args: any) => any>(fn: T, interval: number) => {    let timer: NullAble<ReturnType<typeof setTimeout>> = null    return function (...args: any) {        if (!timer) {            timer = setTimeout(() => {                fn(...args)                timer = null            }, interval)        }    }}

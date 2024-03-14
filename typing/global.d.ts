@@ -1,0 +1,1 @@
+declare type IObj<K extends keyof never = string, T = any> = {    [P in K]: T}declare type NullAble<T> = T | nulldeclare type UndefinedAble<T> = T | undefined
